@@ -54,14 +54,14 @@ export default function Hero() {
           align-items: center;
           gap: 8px;
           padding: 6px 16px;
-          background: white;
-          border: 1px solid var(--border);
+          background: var(--primary-light);
+          border: 1px solid var(--primary);
           border-radius: 100px;
           font-size: 0.875rem;
           font-weight: 600;
           color: var(--primary);
           margin-bottom: 2rem;
-          box-shadow: var(--shadow-sm);
+          box-shadow: 0 4px 12px rgba(16, 185, 129, 0.1);
         }
 
         h1 {
@@ -83,7 +83,7 @@ export default function Hero() {
           font-size: 1.25rem;
           color: var(--text-muted);
           max-width: 700px;
-          margin-bottom: 3rem;
+          margin: 0 auto 3rem;
         }
 
         .hero-btns {
